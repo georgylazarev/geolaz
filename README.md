@@ -3,4 +3,4 @@ Hello!
 
 It's my personal website.
 
-Here is an information about me and my contacts.
+Here is information about me and my contacts.
