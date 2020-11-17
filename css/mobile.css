@@ -6,19 +6,43 @@
     width: 200px;
     height: 200px;
   }
+  
   .contacts {
     width: 100%;
   }
+  
   .contacts__header {
     width: 90%;
     min-width: 300px;
     padding-left: 10%;
   }
-  .contacts__list {
+  
+  .accounts {
+    width: 100%;
+  }
+  
+  .accounts__header {
+    width: 90%;
+    min-width: 300px;
+    padding-left: 10%;
+  }
+  
+  .accounts__list {
     padding: 10px 0;
   }
-  .contacts__link::before {
+  
+  .accounts__link::before {
     width: 60px;
     height: 60px;
+  }
+  
+  .skills {
+    width: 100%;
+  }
+  
+  .skills__header {
+    width: 90%;
+    min-width: 300px;
+    padding-left: 10%;
   }
 }

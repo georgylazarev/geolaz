@@ -9,6 +9,10 @@
   clip: rect(0 0 0 0)
 }
 
+section:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
 .page {
   width: 100vw;
   min-height: 100vh;
@@ -31,7 +35,7 @@
   
 .mane__intro {}
   
-.mane__contacts {}
+.mane__accounts {}
   
 .intro {
   display: flex;
@@ -62,18 +66,52 @@
   width: 250px;
   height: 250px;
 }
-  
+
 .contacts {
   width: 50%;
 }
-  
+
 .contacts__header {
   width: 100%;
   min-width: 480px;
+  padding-bottom: 5px;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.contacts__list {
+.contacts__text {
+  padding-left: 20px;
+}
+
+.contacts__type {
+  font-weight: 700;
+}
+
+.contacts__link {
+  color: #39aecf;
+}
+
+.contacts__link:hover {
+  color: #ffa040;
+}
+
+.contacts__link:active {
+  color: #ff5a40;
+}
+
+.accounts {
+  width: 50%;
+}
+
+.accounts__header {
+  width: 100%;
+  min-width: 480px;
+  padding-bottom: 5px;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.accounts__list {
   list-style: none;
   display: flex;
   justify-content: space-around;
@@ -81,13 +119,13 @@
   padding-left: 20px;
 }
   
-.contacts__item {}
+.accounts__item {}
   
-.contacts__link {
+.accounts__link {
   padding-bottom: 20px;
 }
 
-.contacts__link::before {
+.accounts__link::before {
   content: "";
   display: block;
   width: 80px;
@@ -98,7 +136,7 @@
   
 }
 
-.contacts__link:hover::before {
+.accounts__link:hover::before {
   position: relative;
   top: -10px;
 }
@@ -122,6 +160,18 @@
 
 .htmlacademy::before {
   background-image: url("data:image/svg+xml,%3Csvg width='27' height='35' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.6 0h-.1L0 1.4v24.7l13.5 8 13.4-8V1.4L13.6 0zM25 12.1L13.5 5.3v-.1h-.1l-.1-.1v.1L1.9 12.1v-9l11.5-1.2L25 3.1v9zM13.4 6.8l11.5 6.7-4.5 2.6-7.1-4.2v1.4l5.9 3.5-.9.5-5-3v1.4l3.8 2.3-.8.5-3-1.8v1.4l1.9 1.1-1.8 1.1L2 13.6l11.4-6.8zM1.9 15.1l11.4 6.8v1l-7.9-4.7v1.4l8 4.8v1.1l-8-4.7v1.4l8 4.8 8.1-4.9v-5.2l3.4-2v10l-11.5 6.9L1.9 25v-9.9z' fill='%23000'/%3E%3C/svg%3E");
+}
+
+.skills {
+  width: 50%;
+}
+
+.skills__header {
+  width: 100%;
+  min-width: 480px;
+  padding-bottom: 5px;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .footer {
