@@ -1,0 +1,23 @@
+@media (max-width: 900px) {
+  .intro {
+    width: 100%;
+  }
+  .intro__photo {
+    width: 200px;
+    height: 200px;
+  }
+  .contacts {
+    width: 100%;
+  }
+  .contacts__header {
+    width: 90%;
+    padding-left: 10%;
+  }
+  .contacts__list {
+    padding: 10px 0;
+  }
+  .contacts__link::before {
+    width: 60px;
+    height: 60px;
+  }
+}
