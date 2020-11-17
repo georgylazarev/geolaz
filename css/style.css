@@ -1,0 +1,130 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+}
+  
+.page__mane {}
+  
+.page__footer {}
+  
+.mane {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+.mane__intro {}
+  
+.mane__contacts {}
+  
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+.intro__name {
+  text-align: center;
+  font-weight: 600;
+  font-size: 28pt;
+  margin-bottom: 10px;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+  
+.intro__spec {
+  text-align: center;
+  font-weight: 300;
+  font-size: 18pt;
+  margin-top: 0;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  color: #5e5e5e;
+}
+  
+.intro__photo {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+  
+.contacts {
+  width: 50%;
+}
+  
+.contacts__header {
+  width: 100%;
+  min-width: 480px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.contacts__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+  
+.contacts__item {}
+  
+.contacts__link {}
+
+.contacts__link::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.facebook::before {
+  background-image: url(../img/social/fb.png);
+}
+  
+.twitter::before {
+  background-image: url(../img/social/tw.png);
+}
+  
+.linkedin::before {
+  background-image: url(../img/social/li.png);
+}
+  
+.github::before {
+  background-image: url(../img/social/gh.png);
+}
+  
+.htmlacademy::before {
+  background-image: url(../img/social/ha.png);
+}
+  
+.footer {
+  width: 100vw;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+  
+.footer__copyright {}
+  
+.copyright {
+  color: white;
+}
+  
