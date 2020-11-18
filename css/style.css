@@ -19,6 +19,7 @@ section:not(:last-of-type) {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   font-family: 'Open Sans', 'Arial', sans-serif;
 }
   
@@ -27,7 +28,8 @@ section:not(:last-of-type) {
 .page__footer {}
   
 .mane {
-  width: 100vw;
+  width: 100%;
+  max-width: 960px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,6 +40,7 @@ section:not(:last-of-type) {
 .mane__accounts {}
   
 .intro {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,7 +71,7 @@ section:not(:last-of-type) {
 }
 
 .contacts {
-  width: 50%;
+  width: 100%;
 }
 
 .contacts__header {
@@ -80,7 +83,7 @@ section:not(:last-of-type) {
 }
 
 .contacts__text {
-  padding-left: 20px;
+  padding-left: 10%;
 }
 
 .contacts__type {
@@ -100,7 +103,7 @@ section:not(:last-of-type) {
 }
 
 .accounts {
-  width: 50%;
+  width: 100%;
 }
 
 .accounts__header {
@@ -114,13 +117,15 @@ section:not(:last-of-type) {
 .accounts__list {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
-  padding-left: 20px;
+  padding: 0 10%;
   position: relative;
 }
   
-.accounts__item {}
+.accounts__item {
+  margin: 10px 0;
+}
   
 .accounts__link {
   padding-bottom: 20px;
@@ -162,7 +167,7 @@ section:not(:last-of-type) {
 }
 
 .skills {
-  width: 50%;
+  width: 100%;
 }
 
 .skills__header {
@@ -174,6 +179,7 @@ section:not(:last-of-type) {
 }
 
 .skills_list {
+  padding-left: 10%;
   display: flex;
   list-style: none;
   flex-wrap: wrap;
@@ -182,7 +188,7 @@ section:not(:last-of-type) {
 }
 
 .skills__item {
-  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 10px;
 }
 
