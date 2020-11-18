@@ -117,6 +117,7 @@ section:not(:last-of-type) {
   justify-content: space-around;
   flex-wrap: wrap;
   padding-left: 20px;
+  position: relative;
 }
   
 .accounts__item {}
@@ -172,6 +173,27 @@ section:not(:last-of-type) {
   padding-bottom: 5px;
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.skills_list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  font-size: 14pt;
+  font-weight: 300;
+}
+
+.skills__item {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.skills__item--mid {
+  font-weight: 400;
+}
+
+.skills__item--bold {
+  font-weight: 700;
 }
 
 .footer {
