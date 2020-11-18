@@ -188,6 +188,10 @@ section:not(:last-of-type) {
   margin-bottom: 10px;
 }
 
+.skills__item--thin {
+  font-weight: 300;
+}
+
 .skills__item--mid {
   font-weight: 400;
 }
