@@ -9,10 +9,6 @@
   clip: rect(0 0 0 0)
 }
 
-section:not(:last-of-type) {
-  margin-bottom: 20px;
-}
-
 .page {
   width: 100vw;
   min-height: 100vh;
@@ -49,7 +45,7 @@ section:not(:last-of-type) {
 .intro__name {
   text-align: center;
   font-weight: 600;
-  font-size: 28pt;
+  font-size: 24pt;
   margin-bottom: 10px;
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
@@ -57,7 +53,7 @@ section:not(:last-of-type) {
 .intro__spec {
   text-align: center;
   font-weight: 300;
-  font-size: 18pt;
+  font-size: 14pt;
   margin-top: 0;
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   color: #5e5e5e;
@@ -66,8 +62,8 @@ section:not(:last-of-type) {
 .intro__photo {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   border-radius: 50%;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
 }
 
 .contacts {
@@ -134,8 +130,8 @@ section:not(:last-of-type) {
 .accounts__link::before {
   content: "";
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -166,6 +162,10 @@ section:not(:last-of-type) {
   background-image: url("../img/social/htmlacademy.svg");
 }
 
+.instagram::before {
+  background-image: url("../img/social/instagram.svg");
+}
+
 .skills {
   width: 100%;
 }
@@ -183,7 +183,7 @@ section:not(:last-of-type) {
   display: flex;
   list-style: none;
   flex-wrap: wrap;
-  font-size: 14pt;
+  font-size: 11pt;
   font-weight: 300;
 }
 
