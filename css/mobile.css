@@ -12,9 +12,9 @@
   }
   
   .contacts__header {
-    width: 90%;
+    width: 99%;
     min-width: 300px;
-    padding-left: 10%;
+    padding-left: 1%;
   }
   
   .accounts {
@@ -22,9 +22,9 @@
   }
   
   .accounts__header {
-    width: 90%;
+    width: 99%;
     min-width: 300px;
-    padding-left: 10%;
+    padding-left: 1%;
   }
   
   .accounts__list {
@@ -41,8 +41,8 @@
   }
   
   .skills__header {
-    width: 90%;
+    width: 99%;
     min-width: 300px;
-    padding-left: 10%;
+    padding-left: 1%;
   }
 }
