@@ -66,11 +66,22 @@
           </li>
         </ul>
       </section>
+      <section class="mane__projects projects">
+        <h3 class="projects__header">
+          My projects
+        </h3>
+        <ul class="projects__list">
+          <li class="projects__item">
+            Turn on JavaScript
+          </li>
+        </ul>
+      </section>
+      
       <section class="mane__skills skills">
         <h3 class="skills__header">
           My skills
         </h3>
-        <ul class="skills_list">
+        <ul class="skills__list">
           <li class="skills__item">
             Turn on JavaScript
           </li>
@@ -80,6 +91,19 @@
     <template id="skills-element">
       <li class="skills__item"></li>
     </template>
-    <script src="js/script.js"></script>
+    <template id="projects-element">
+      <li class="projects__item">
+        <img class="projects__image" src="https://via.placeholder.com/150" alt="placeholder" width="150" height="150">
+        <h3 class="projects__name">Project name</h3>
+        <p class="projects__description">
+          <a class="projects__description__link" href="project-url" target="_blank">Project URL</a>
+          <span class="projects__description__role">My role</span>
+          <span class="projects__description__info">Information about project.</span>
+        </p>
+      </li>
+    </template>
+    <script src="js/data.js"></script>
+    <script src="js/skills.js"></script>
+    <script src="js/projects.js"></script>
   </body>
 </html>
