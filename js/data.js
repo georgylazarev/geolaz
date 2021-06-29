@@ -43,6 +43,14 @@
           'alt' : 'Screenshot of pizza-lavka.ru main page',
           'role' : 'developer, system administrator',
           'info' : 'Official web site for a small pizzeria in Saint Petersburg'
+        },
+        {
+          'name' : 'The Monday Snobs',
+          'image' : 'img/projects/tms.jpg',
+          'url' : 'http://tmsband.ru',
+          'alt' : 'Screenshot of tmsband.ru main page',
+          'role' : 'developer, musician :)',
+          'info' : 'Official web site of a local rock band from Saint Petersburg'
         }
       ];
       return myProjects;
