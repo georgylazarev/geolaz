@@ -19,11 +19,11 @@
   align-items: center;
   font-family: 'Open Sans', 'Arial', sans-serif;
 }
-  
+
 .page__mane {}
-  
+
 .page__footer {}
-  
+
 .mane {
   width: 100%;
   max-width: 960px;
@@ -32,18 +32,18 @@
   flex-direction: column;
   align-items: center;
 }
-  
+
 .mane__intro {}
-  
+
 .mane__accounts {}
-  
+
 .intro {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-  
+
 .intro__name {
   text-align: center;
   font-weight: 600;
@@ -51,7 +51,7 @@
   margin-bottom: 10px;
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
-  
+
 .intro__spec {
   text-align: center;
   font-weight: 300;
@@ -60,12 +60,18 @@
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   color: #5e5e5e;
 }
-  
+
 .intro__photo {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   border-radius: 50%;
   width: 200px;
   height: 200px;
+}
+
+.intro__text {
+  font-weight: 300;
+  font-size: 10pt;
+  margin-top: 0;
 }
 
 .contacts {
@@ -120,11 +126,11 @@
   padding: 0 10%;
   position: relative;
 }
-  
+
 .accounts__item {
   margin: 15px;
 }
-  
+
 .accounts__link {
   padding-bottom: 20px;
 }
