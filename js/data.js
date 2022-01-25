@@ -33,7 +33,7 @@
           'image' : 'img/projects/ncsp.jpg',
           'url' : 'https://ncsp.info',
           'alt' : 'Screenshot of ncsp.info main page',
-          'role' : 'one of developers, system administrator',
+          'role' : 'developer, system administrator',
           'info' : 'Official web site for the non-profin organization NCSH'
         },
         {
