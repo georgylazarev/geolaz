@@ -76,6 +76,59 @@
   margin-top: 0;
 }
 
+.about {
+  width: 100%;
+}
+
+.about__header {
+  width: 100%;
+  min-width: 480px;
+  padding-bottom: 5px;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.about__languages-list {
+  list-style: none;
+  padding: 0 10%;
+}
+
+.about__languages-item {
+  margin-bottom: 5px;
+}
+
+.about__language-name {
+  font-weight: 700;
+}
+
+.about__language-link {
+  border-bottom: 1px dashed #ccc;
+  cursor: default;
+}
+
+[data-tooltip] {
+  position: relative;
+}
+
+[data-tooltip]::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  width: 370px;
+  text-align: center;
+  left: 0; top: 0;
+  color: #5e5e5e;
+  background-color: #fff;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  pointer-events: none;
+  opacity: 0;
+  transition: 1s;
+}
+[data-tooltip]:hover::after {
+  opacity: 1;
+  top: 2em;
+}
+
 .contacts {
   width: 100%;
 }

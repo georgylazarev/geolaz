@@ -29,12 +29,12 @@
           'info' : 'Official web site for the endaument fund Strana Pomogaet (Nation Helps)'
         },
         {
-          'name' : 'Natonal Center for Social Help',
+          'name' : 'National Center for Social Help',
           'image' : 'img/projects/ncsp.jpg',
           'url' : 'https://ncsp.info',
           'alt' : 'Screenshot of ncsp.info main page',
           'role' : 'developer, system administrator',
-          'info' : 'Official web site for the non-profin organization NCSH'
+          'info' : 'Official web site for the non-profit organization NCSH'
         },
         {
           'name' : 'O, Pizza!',
