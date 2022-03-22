@@ -114,7 +114,8 @@
   content: attr(data-tooltip);
   position: absolute;
   width: 370px;
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
   left: 0; top: 0;
   color: #5e5e5e;
   background-color: #fff;
